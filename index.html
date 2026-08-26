@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Banco de Preguntas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Sistema de Control - Banco de Preguntas</h1>
+    <p>Seleccione las opciones paso a paso para desplegar la información</p>
+  </header>
+
+  <div class="selectors">
+    <div>
+      <div class="btn-group-label">1. Seleccione el Año</div>
+      <div class="btn-group" id="year-group">
+        <button class="btn" onclick="selectYear('2025')">2025</button>
+        <button class="btn" onclick="selectYear('2026')">2026</button>
+        <button class="btn" onclick="selectYear('2027')">2027</button>
+      </div>
+    </div>
+
+    <div id="bank-wrapper" style="display: none;">
+      <div class="btn-group-label">2. Seleccione el Banco</div>
+      <div class="btn-group" id="bank-group">
+        <button class="btn btn-bank" onclick="selectBank('BANCO I')">Banco I</button>
+        <button class="btn btn-bank" onclick="selectBank('BANCO II')">Banco II</button>
+        <button class="btn btn-bank" onclick="selectBank('BANCO III')">Banco III</button>
+        <button class="btn btn-bank" onclick="selectBank('BANCO IV')">Banco IV</button>
+      </div>
+    </div>
+
+    <div id="stage-wrapper" style="display: none;">
+      <div class="btn-group-label">3. Seleccione la Etapa</div>
+      <div class="btn-group" id="stage-group"></div>
+    </div>
+  </div>
+
+  <div class="card" id="main-card">
+    <div class="module-header">
+      <div class="module-info">
+        <h2 id="table-title"></h2>
+      </div>
+      <div class="module-image-wrapper">
+        <img id="ref-image" class="module-image" src="" alt="Imagen Referencial" onclick="openModal()" />
+      </div>
+    </div>
+
+    <div class="items-container" id="items-container">
+      <h4 style="margin-bottom: 10px; color: var(--primary);">Botones Directos por Grado:</h4>
+      <div class="item-links-grid" id="items-grid"></div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Grado</th>
+          <th>Estado / Enlace Directo</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="image-modal" class="modal" onclick="closeModal()">
+  <span class="close-modal" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modal-img" alt="Vista Ampliada">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
