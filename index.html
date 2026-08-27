@@ -5,6 +5,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Control de Banco de Preguntas</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ===== ESTILOS DEL BOTÓN PARPADEANTE ===== */
+    .btn-formatos-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    .btn-formatos {
+      background: #1a73e8;
+      color: white;
+      padding: 14px 40px;
+      border: none;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 4px 15px rgba(26, 115, 232, 0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+      animation: parpadeoMulticolor 1.8s ease-in-out infinite;
+    }
+
+    .btn-formatos:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 25px rgba(26, 115, 232, 0.6);
+      animation-play-state: paused;
+    }
+
+    /* ===== ANIMACIÓN PARPADEANTE MULTICOLOR ===== */
+    @keyframes parpadeoMulticolor {
+      0% {
+        background: #1a73e8;
+        box-shadow: 0 4px 20px rgba(26, 115, 232, 0.5);
+      }
+      15% {
+        background: #e91e63;
+        box-shadow: 0 4px 20px rgba(233, 30, 99, 0.5);
+      }
+      30% {
+        background: #f44336;
+        box-shadow: 0 4px 20px rgba(244, 67, 54, 0.5);
+      }
+      45% {
+        background: #ff9800;
+        box-shadow: 0 4px 20px rgba(255, 152, 0, 0.5);
+      }
+      60% {
+        background: #4caf50;
+        box-shadow: 0 4px 20px rgba(76, 175, 80, 0.5);
+      }
+      75% {
+        background: #9c27b0;
+        box-shadow: 0 4px 20px rgba(156, 39, 176, 0.5);
+      }
+      90% {
+        background: #00bcd4;
+        box-shadow: 0 4px 20px rgba(0, 188, 212, 0.5);
+      }
+      100% {
+        background: #1a73e8;
+        box-shadow: 0 4px 20px rgba(26, 115, 232, 0.5);
+      }
+    }
+
+    /* ===== OPCIÓN CON BRILLO EXTRA (efecto neón) ===== */
+    @keyframes parpadeoNeon {
+      0% {
+        background: #1a73e8;
+        box-shadow: 0 0 20px #1a73e8, 0 0 40px #1a73e8;
+      }
+      25% {
+        background: #e91e63;
+        box-shadow: 0 0 20px #e91e63, 0 0 40px #e91e63;
+      }
+      50% {
+        background: #ff9800;
+        box-shadow: 0 0 20px #ff9800, 0 0 40px #ff9800;
+      }
+      75% {
+        background: #4caf50;
+        box-shadow: 0 0 20px #4caf50, 0 0 40px #4caf50;
+      }
+      100% {
+        background: #1a73e8;
+        box-shadow: 0 0 20px #1a73e8, 0 0 40px #1a73e8;
+      }
+    }
+
+    /* Descomentar la línea de abajo y comentar la de arriba para usar el efecto neón */
+    /* .btn-formatos {
+      animation: parpadeoNeon 2s ease-in-out infinite;
+    } */
+  </style>
 </head>
 <body>
 
@@ -13,6 +110,13 @@
     <h1>Sistema de Control - Banco de Preguntas</h1>
     <p>Seleccione las opciones paso a paso para desplegar la información</p>
   </header>
+
+  <!-- ======== BOTÓN FORMATOS CENTRADO Y PARPADEANTE ======== -->
+  <div class="btn-formatos-wrapper">
+    <a href="https://drive.google.com/drive/folders/1B__f5Ar-VNepiBObmzWWYGJhuchif2cg?usp=drive_link" target="_blank" class="btn-formatos">
+      📁 FORMATOS
+    </a>
+  </div>
 
   <div class="selectors">
     <div>
