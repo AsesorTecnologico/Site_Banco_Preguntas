@@ -3,12 +3,12 @@ const createBankStructure = (bankName) => ({
   "BORRADORES": {
     img: `https://via.placeholder.com/600x350?text=Borradores+${encodeURIComponent(bankName)}+2027`,
     items: [
-      { grado: "1ero", url: "https://drive.google.com/drive/folders/1WeERLnwvh3nj5o2eyp51wCzuVgr4Ih6v?usp=drive_link" },
-      { grado: "2do", url: "https://drive.google.com/drive/folders/1OJ5c0y8SrMSvG5TnWq-V2QUOdYjGf5zs?usp=drive_link" },
-      { grado: "3ero", url: "https://drive.google.com/drive/folders/18UTotz5sc6Ur6kFTOyOqIhasG3Zh33py?usp=drive_link" },
-      { grado: "4to", url: "https://drive.google.com/drive/folders/1hM1A2Q7xrwgiWDnASYjtIvcpKsa9uXyh?usp=drive_link" },
-      { grado: "5to", url: "https://drive.google.com/drive/folders/146TTYP53RXMnoBtNDAlBtb1uhFNeR_bq?usp=drive_link" },
-      { grado: "5to Pre", url: "https://drive.google.com/drive/folders/16KVzHgU7omNvFZkue5vLZ1DJQtwX2YG-?usp=drive_link" }
+      { grado: "1ero", url: "https://drive.google.com/drive/folders/1qq3BwMKCBihUGPebJqW0YHxDqroH_nY5?usp=drive_link" },
+      { grado: "2do", url: "https://drive.google.com/drive/folders/1CC9ycuV88yxDNq78av31yDXvVnY0whib?usp=drive_link" },
+      { grado: "3ero", url: "https://drive.google.com/drive/folders/1S7iCfdrjrZzQF8GDHfpQpCKzlgi5GLqr?usp=drive_link" },
+      { grado: "4to", url: "https://drive.google.com/drive/folders/14sUxwA4Jf-LpSv5pWlCrJ6yUQdaS22ju?usp=drive_link" },
+      { grado: "5to", url: "https://drive.google.com/drive/folders/1bCvv3Vtbq5qMsa8_0puiPLZLEHDbSyhR?usp=drive_link" },
+      { grado: "5to Pre", url: "https://drive.google.com/drive/folders/19cBHC-7p9U6Y5f-f8sKDzGIDhEZbwOi5?usp=drive_link" }
     ]
   },
   "PRIMERA REVISIÓN": {
@@ -133,11 +133,191 @@ const database = {
     }
   },
   "2027": {
-    "BANCO I": createBankStructure("BANCO I"),
-    "BANCO II": createBankStructure("BANCO II"),
-    "BANCO III": createBankStructure("BANCO III"),
-    "BANCO IV": createBankStructure("BANCO IV")
+  "BANCO I": {
+    "BORRADORES": {
+      img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+I+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1qq3BwMKCBihUGPebJqW0YHxDqroH_nY5?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1CC9ycuV88yxDNq78av31yDXvVnY0whib?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1S7iCfdrjrZzQF8GDHfpQpCKzlgi5GLqr?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/14sUxwA4Jf-LpSv5pWlCrJ6yUQdaS22ju?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1bCvv3Vtbq5qMsa8_0puiPLZLEHDbSyhR?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/19cBHC-7p9U6Y5f-f8sKDzGIDhEZbwOi5?usp=drive_link" }
+      ]
+    },
+    "PRIMERA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+I+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1EnbbN5NIJmflYHUa3Lb782DC9cCXFaox?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1kjhtXmqMkXWbTO-le1rDURd-04MHAQe_?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1Sb851XpNpT7cfrHYTmZguBokmdTxhgMN?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1G1KDKr3YjheKgVvQi2G7R8s_kwjlB85Z?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/10tU9erC5JGnV3Tw_cd5NSA4dhasGsRr1?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1E9opqUiqpmzlwDvPOYEPNYDtnzS9bxSy?usp=drive_link" }
+      ]
+    },
+    "SEGUNDA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+I+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1AngYfgPb-oln__UO8sK20JBbCpMottI2?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1IDpfHT9rWgzuTvMZcZreev9b52XS_pET?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1NylygYXWqcsjWLEfEwV8zNEOGoiDqDC5?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1WltRneZNo5VSbZ0SySvw_srItydbWQ3V?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1QAdHfHyEZ0HxWNwcU-Je4JC86PMsyFNO?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1h_jAmpot9iC6sccwaYH_hxVMLl_ZUH_t?usp=drive_link" }
+      ]
+    },
+    "REVISIÓN FINAL": {
+      img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+I+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1jXIfEM9x8Iy8OmRVjfBi1Dj93B2LavlF?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1HcAuc84r91SANxysWqca99_FkIlQljAs?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1SAqto9CqUxtJzQZj5AS5Zp-ugwc0gjiy?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1LVXymFYA_lPMk2HzcurvOIfgLcQVqcji?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1_LNc20Pazt2y70ymFVPb23iHURKSJQBd?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1EnbbN5NIJmflYHUa3Lb782DC9cCXFaox?usp=drive_link" }
+      ]
+    }
+  },
+  "BANCO II": {
+    "BORRADORES": {
+      img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+II+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/171eTGN2weVMOD6UZijzD3_3Kjc4G3ty1?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1TghAWvtz1I6trmO8exXoJDktQ0iXPOP4?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/14cfYrDHVHS7803qF4SxSspFE5hvFpoL2?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1k_yShVWjBw4LCe8ZlgAdtpk85Odl7MDL?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/19lQ4apa2nkxtTXYSGsIrXZddFwRYls3x?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1tvZ3TtzkFM2JNNlWvuwcjgZZDxpv3szG?usp=drive_link" }
+      ]
+    },
+    "PRIMERA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+II+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1Jlem_eQ8Cyx6JBWH5luzE70z_ohRoco1?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1WYe3L9vI63GYCuQCoZ9gQcKagCuC0Gba?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1C6eEYmDrizkhQxiiChhpUAma9lVR62zk?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1lqIFMzwVC_BILFN5BMP4xkwy8XFwUiDd?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1fe16bJqaLDn0fBK77fzaw0q80-8lfSCM?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/10fjKv1wXJxZqATZl6qnGT-Zf_3M5lBSH?usp=drive_link" }
+      ]
+    },
+    "SEGUNDA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+II+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1d0lVFrdUhx5qGqVBoLMmEFzj5nlu3lfL?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1Mlsdd-r4eygNpZMVZEIxd23BOlDD_gWx?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1TC8CA-GSLYRTmppkCj2Wp48vs6FHnzTF?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1NkzexH4AlK_DgAoRcygG5lByNaLPrwDH?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1NqvgMaFugoOkoPXOuNleTwxNZT2Xrg7j?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1fBLANg785HkrpHJaL2woj-ktrAqFXiSP?usp=drive_link" }
+      ]
+    },
+    "REVISIÓN FINAL": {
+      img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+II+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1jXIfEM9x8Iy8OmRVjfBi1Dj93B2LavlF?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1HQxkZnHDxj5Yzmb4Hmt6NPoobrvmB2En?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1S1Wn60-j1k4E7BZI21_1c-Qrl9QJ0ZPV?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1bdQtJGpDwyI1JY2TCHurqW0DI0sFalCt?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1A83HyKzFI4anZvBn0zLzsoUJCSpXsZJs?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1_DdKxRDXOYVnF_CU759uhLeSW6vhJZzL?usp=drive_link" }
+      ]
+    }
+  },
+  "BANCO III": {
+    "BORRADORES": {
+      img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+III+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1uX_1m6V5WGZ_z4Ykv_vEG14xYmHI_s1g?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1FYA1BOo7oWFeGIyYGxdRUHXuxcyM1Ceu?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1vdBFKqGdKZ2xm0P_Oz_asMeOaj5CKNVG?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1hx2dBc-YLf9HBPVHjnyluisIZJlMq_fZ?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1RuwuGZhQJ7WlaJ_3h8xqHRVypK_6ujLP?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1XIKjMbFZpJ73I6U5SHj77B518GvJCeLZ?usp=drive_link" }
+      ]
+    },
+    "PRIMERA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+III+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/13fWaHbHiW3OHaiq5lrondz1BRxXXMA-j?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1vwOs757VUhYqLnFMlttrJdMF4xkNrVYS?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1Ju26gn69IutAtLHTude1y14myU8fOEuO?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1Gb-8J3Ei4n-uh7iQ0kG_FLCT4SX6ldjW?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/19DR1IJxvA457ZWNm4qIbKHCe23-LAHUn?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/15uGVUiBFt1r5hkHzMNuw9HHa7RSpSv_Z?usp=drive_link" }
+      ]
+    },
+    "SEGUNDA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+III+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/18do4zpDC2g6-jLUgDBXeuhMgFemvvFHv?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1fWgc39gEWmNP9GWrzqSHug2NBeKt_XHM?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1JYQH4P5fMv--sypjfSFUxBTqLHVsxArb?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1wi7_AAbWLJT4ZArmstABibae4rA3Zull?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1TX59zLmGcK3DepXNmZ470-V8Nw5t1LhK?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1cl0hEB7BQkTjjjOjFRlkJ5gj9_uY_WEw?usp=drive_link" }
+      ]
+    },
+    "REVISIÓN FINAL": {
+      img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+III+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/10wq4irGCgN6kGPGsT3fyDEwaUY8jeFun?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1lWFGhLwuaKDnZ3NSrBrCJkf7zOHCW5oQ?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1GAxMoaMGxfEo5165KBt8Ih20T3w2U715?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1k7OqMMSOJGvuwGDgMCEVC73maH5_QwKp?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1T_Mr1tAN4U4cjPY0NBLxazElUWUKjoaJ?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1RZ0_wt9xUXvjWbO85odWT_D1NxRT1Whi?usp=drive_link" }
+      ]
+    }
+  },
+  "BANCO IV": {
+    "BORRADORES": {
+      img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+IV+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1ZYARdlTVV8tzf4tZk26Z_Q4I_D4ECnnX?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1Bfx6PlOqnKQeH29ewMygLt4xjA5TTbTv?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1Wocbyz81wNArItYYsNeB6vFS1b64rTOh?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1XluswewEl1u4b8shdWKYdTfMEEsHJ7xn?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/16nfDRapq0v_2JWxrfTCdxlRCa068ZoXe?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1FfcnUo330dbQBoPN_Mfitusd2hTBqWt0?usp=drive_link" }
+      ]
+    },
+    "PRIMERA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+IV+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/17-ajyNxqxIVlWNxX0DThYR61nKXY2cKn?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1v3TCuHo57M0_S11vK0af0b2UZ_jLt0j4?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/17HaXHzV-hGMfI-MYX4mn4oAb_0M8QXoa?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/10J8yIA0-i692FJioMCBtlAqVX6ZL42Yj?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/17bdPQXeyW_tEXMPz5WthIRgloP0YMe0I?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1GmMTVjS4Xoz1M67WfiKu25Rmh8Ah00_9?usp=drive_link" }
+      ]
+    },
+    "SEGUNDA REVISIÓN": {
+      img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+IV+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/16P_MUnl0UANGgB4iCtcmpf-1DLAJk600?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1JPqMFrx2ST7naJhimiyeK_S-5_c6gZqW?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1N7N-jQO5IEvkLa6TYhYBKPOdhs0CPcpt?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1rqjlAvXn3BpVaGhigm2_bYyU77EF2Byh?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1buOFCK7w223KTISLy6Yl37_o7UestPeZ?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1buOFCK7w223KTISLy6Yl37_o7UestPeZ?usp=drive_link" }
+      ]
+    },
+    "REVISIÓN FINAL": {
+      img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+IV+2027`,
+      items: [
+        { grado: "1ero", url: "https://drive.google.com/drive/folders/1n7rFHjLGWbWjaQOrS6iRad3rsmuRYHR-?usp=drive_link" },
+        { grado: "2do", url: "https://drive.google.com/drive/folders/1ZCxxwRDAGYbnKq5gz9rrwBpvOmt3fUT9?usp=drive_link" },
+        { grado: "3ero", url: "https://drive.google.com/drive/folders/1oHoDlg483WZWbm_jpkWcrp47--9We5md?usp=drive_link" },
+        { grado: "4to", url: "https://drive.google.com/drive/folders/1yI0p-w5j_4Y-ryMJj011RetGyQXZY0k-?usp=drive_link" },
+        { grado: "5to", url: "https://drive.google.com/drive/folders/1EFc7CPf5uBuBoo50BGQb0uWdr52fUy0o?usp=drive_link" },
+        { grado: "5to Pre", url: "https://drive.google.com/drive/folders/1I2ZC0OqVDoOl8zhzrdg7x0LBXRwTP1RF?usp=drive_link" }
+      ]
+    }
   }
+}
 };
 
 let currentYear = null;
