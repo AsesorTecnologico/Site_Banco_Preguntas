@@ -135,7 +135,7 @@ const database = {
   "2027": {
     "BANCO I": {
       "BORRADORES": {
-        img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+I+2027`,
+        img: "imagenes/BimI1.png",
         items: [
           { 
             grado: "1ero", 
@@ -170,7 +170,7 @@ const database = {
         ]
       },
       "PRIMERA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+I+2027`,
+        img: "imagenes/BimI1.png",
         items: [
           { 
             grado: "1ero", 
@@ -205,7 +205,7 @@ const database = {
         ]
       },
       "SEGUNDA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+I+2027`,
+        img: "imagenes/BimI1.png",
         items: [
           { 
             grado: "1ero", 
@@ -240,7 +240,7 @@ const database = {
         ]
       },
       "REVISIÓN FINAL": {
-        img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+I+2027`,
+        img: "imagenes/BimI1.png",
         items: [
           { 
             grado: "1ero", 
@@ -277,7 +277,7 @@ const database = {
     },
     "BANCO II": {
       "BORRADORES": {
-        img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+II+2027`,
+        img: "imagenes/BimI2.png",
         items: [
           { grado: "1ero", url_boton: "https://drive.google.com/drive/folders/171eTGN2weVMOD6UZijzD3_3Kjc4G3ty1?usp=drive_link", url_tabla: "https://drive.google.com/drive/folders/171eTGN2weVMOD6UZijzD3_3Kjc4G3ty1?usp=drive_link" },
           { grado: "2do", url_boton: "https://drive.google.com/drive/folders/1TghAWvtz1I6trmO8exXoJDktQ0iXPOP4?usp=drive_link", url_tabla: "https://drive.google.com/drive/folders/1TghAWvtz1I6trmO8exXoJDktQ0iXPOP4?usp=drive_link" },
@@ -288,7 +288,7 @@ const database = {
         ]
       },
       "PRIMERA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+II+2027`,
+        img: "imagenes/BimI2.png",
         items: [
           { 
             grado: "1ero", 
@@ -323,7 +323,7 @@ const database = {
         ]
       },
       "SEGUNDA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+II+2027`,
+        img: "imagenes/BimI2.png",
         items: [
           { 
             grado: "1ero", 
@@ -358,7 +358,7 @@ const database = {
         ]
       },
       "REVISIÓN FINAL": {
-        img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+II+2027`,
+        img: "imagenes/BimI2.png",
         items: [
           { 
             grado: "1ero", 
@@ -395,7 +395,7 @@ const database = {
     },
     "BANCO III": {
       "BORRADORES": {
-        img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+III+2027`,
+        img: "imagenes/BimI3.png",
         items: [
           { 
             grado: "1ero", 
@@ -430,7 +430,7 @@ const database = {
         ]
       },
       "PRIMERA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+III+2027`,
+        img: "imagenes/BimI3.png",
         items: [
           { 
             grado: "1ero", 
@@ -465,7 +465,7 @@ const database = {
         ]
       },
       "SEGUNDA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+III+2027`,
+        img: "imagenes/BimI3.png",
         items: [
           { 
             grado: "1ero", 
@@ -500,7 +500,7 @@ const database = {
         ]
       },
       "REVISIÓN FINAL": {
-        img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+III+2027`,
+        img: "imagenes/BimI3.png",
         items: [
           { 
             grado: "1ero", 
@@ -537,7 +537,7 @@ const database = {
     },
     "BANCO IV": {
       "BORRADORES": {
-        img: `https://via.placeholder.com/600x350?text=Borradores+BANCO+IV+2027`,
+        img: "imagenes/BimI4.png",
         items: [
           { 
             grado: "1ero", 
@@ -572,7 +572,7 @@ const database = {
         ]
       },
       "PRIMERA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+1+BANCO+IV+2027`,
+        img: "imagenes/BimI4.png",
         items: [
           { 
             grado: "1ero", 
@@ -607,7 +607,7 @@ const database = {
         ]
       },
       "SEGUNDA REVISIÓN": {
-        img: `https://via.placeholder.com/600x350?text=Revision+2+BANCO+IV+2027`,
+        img: "imagenes/BimI4.png",
         items: [
           { 
             grado: "1ero", 
@@ -642,7 +642,7 @@ const database = {
         ]
       },
       "REVISIÓN FINAL": {
-        img: `https://via.placeholder.com/600x350?text=Revision+Final+BANCO+IV+2027`,
+        img: "imagenes/BimI4.png",
         items: [
           { 
             grado: "1ero", 

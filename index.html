@@ -101,6 +101,26 @@
     /* .btn-formatos {
       animation: parpadeoNeon 2s ease-in-out infinite;
     } */
+
+    .module-image {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: zoom-in;
+    background: #f1f1f1;
+}
+
+.module-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.module-image:hover img {
+    transform: scale(1.05);
+}
   </style>
 </head>
 <body>
@@ -125,6 +145,14 @@
     📁 SÍLABOS DE TODOS LOS CURSOS
   </a>
 
+</div>
+
+<div class="module-image">
+    <img 
+        src="${module.img}" 
+        alt="${moduleName}"
+        onclick="ampliarImagen('${module.img}')"
+    >
 </div>
 
   <div class="selectors">
@@ -187,5 +215,11 @@
 </div>
 
 <script src="script.js"></script>
+<!--
+<div id="visorImagen" class="visor-imagen" onclick="cerrarImagen()">
+    <span class="cerrar-visor">&times;</span>
+    <img id="imagenAmpliada" src="" alt="Imagen ampliada">
+</div>
+-->
 </body>
 </html>
